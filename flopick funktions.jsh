@@ -69,3 +69,24 @@ void min2sec() {
 	int min=readInt();
 	printf(min*60+" seconds");
 }
+
+
+void DaysToHours() {
+    printf("Write days: ");
+    int day=readInt();
+    printf(day*24+" hours");
+}
+
+
+void Birthday(int n,String name ) {
+	n=n+1;
+    for(int c=1;c<n;c=c+1) {
+		printf("Happy b-day "+name+"!!!!\n");
+		printf(c);
+	}
+}
+
+
+
+
+
