@@ -45,31 +45,29 @@ void hello(String name,int age) {
  }  
  
  
- void whichGrade() {  
-	 printf("How old are you? ");
-	 printf("\n");
-	 int age=readInt();
-	 if(age==6){
-		 printf("You are in 1st grade");
-	 }
-	 if(age==7) {
-		 printf("You are in 2nd grade");
-	 }
-	 if(age==8) {
-		 printf("You are in 3rd grade");
-	 }
-	 if (age>8) {
-		 printf("You are in another grade or you are not in school");
-	 }
- }
- 
- 
+void whichGrade() {  
+	printf("How old are you? ");
+	printf("\n");
+	int age=readInt();
+	if(age==6){
+		printf("You are in 1st grade");
+	}
+	if(age==7) {
+		printf("You are in 2nd grade");
+	}
+	if(age==8) {
+		printf("You are in 3rd grade");
+	}
+	if (age>8) {
+		printf("You are in another grade or you are not in school");
+	}
+}
+  
 void min2sec() {
 	printf("Write minutes: ");
 	int min=readInt();
 	printf(min*60+" seconds");
 }
-
 
 void DaysToHours() {
     printf("Write days: ");
@@ -77,8 +75,7 @@ void DaysToHours() {
     printf(day*24+" hours");
 }
 
-
-void Birthday(int n,String name ) {
+void Birthday(int n, String name ) {
 	n=n+1;
     for(int c=1;c<n;c=c+1) {
 		printf("Happy b-day "+name+"!!!!\n");
@@ -86,7 +83,28 @@ void Birthday(int n,String name ) {
 	}
 }
 
+void Sandwitch(int layers, int tomatos) {
+	printf(layers-tomatos);
+	printf("that is how many layers of other food is left in the sandwitch");
+}
 
+void lines(int s) {
+	for(int c=0;c<s;c=c+1) {
+		printf("- ");
+	}
+}
 
+void square(int s) {
+	for(int c=0;c<s;c=c+1) {
+		lines(s);
+		printf("\n");
+	}
+}
 
+void rect(int h, int l) {
+    for(int c=0;c<h;c=c+1) {
+		lines(l);
+		printf("\n");
+	}
+}
 
