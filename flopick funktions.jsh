@@ -88,12 +88,14 @@ void Sandwitch(int layers, int tomatos) {
 	printf("that is how many layers of other food is left in the sandwitch");
 }
 
+// This funktion draws a line length of S
 void lines(int s) {
 	for(int c=0;c<s;c=c+1) {
 		printf("- ");
 	}
 }
 
+// This funktion draws a square
 void square(int s) {
 	for(int c=0;c<s;c=c+1) {
 		lines(s);
@@ -101,6 +103,7 @@ void square(int s) {
 	}
 }
 
+// This funktion draws a rectangle
 void rect(int h, int l) {
     for(int c=0;c<h;c=c+1) {
 		lines(l);
