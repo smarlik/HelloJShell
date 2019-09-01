@@ -1,3 +1,51 @@
+/**
+ * Initializing JShell environment
+ */
+
+import static java.lang.System.*;
+
+import java.util.*;
+import java.util.stream.*;
+import java.io.*;
+import java.nio.*;
+import java.nio.file.*;
+
+BufferedReader stdin = new BufferedReader(new InputStreamReader(in));
+
+void printf(String s) {
+    System.out.print(s);
+}
+
+void printf(int i) {
+    System.out.println("" + i);
+}
+
+void printf(boolean i) {
+    System.out.println("" + i);
+}
+
+String readString() {
+    try {
+        return stdin.readLine();
+    } catch (Exception e) {
+        e.printStackTrace();
+        return "";
+    }
+}
+
+int readInt() {
+    try {
+        return new Scanner(in).nextInt();
+    } catch (Exception e) { 
+        e.printStackTrace();
+        return 0;
+    }
+}
+
+/**
+ * HelloJShell
+ */
+
 void k() {
    printf("Hello Smarlik\n");
    printf(12*123);
