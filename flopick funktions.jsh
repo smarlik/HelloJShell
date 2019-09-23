@@ -159,3 +159,15 @@ void rect(int h, int l) {
 	}
 }
 
+void PrintNums(int n) {
+	for(int c=1;c<n;c=c+1){
+		printf(c+",");
+	}
+}
+
+// This function prints odd numbers.
+void PrintOdd(int n) {
+	for(int c=1;c<n;c=c+2){
+		printf(c+",");
+	}
+}
