@@ -17,11 +17,11 @@ void printf(String s) {
 }
 
 void printf(int i) {
-    System.out.println("" + i);
+    System.out.print("" + i);
 }
 
 void printf(boolean i) {
-    System.out.println("" + i);
+    System.out.print("" + i);
 }
 
 String readString() {
@@ -126,8 +126,8 @@ void DaysToHours() {
 void Birthday(int n, String name ) {
 	n=n+1;
     for(int c=1;c<n;c=c+1) {
-		printf("Happy b-day "+name+"!!!!\n");
 		printf(c);
+		printf(" Happy b-day "+name+"!!!!\n");
 	}
 }
 
