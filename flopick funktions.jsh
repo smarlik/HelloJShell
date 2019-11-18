@@ -24,7 +24,7 @@ void printf(boolean i) {
     System.out.print("" + i);
 }
 
-String readString() {
+String read() {
     try {
         return stdin.readLine();
     } catch (Exception e) {
