@@ -53,7 +53,7 @@ void k() {
 
 
 void DoGood(String name) {    
-   printf( name+" " );
+   printf( name+", " );
    printf("Do the good you know, \nLet compassion show,\nYou can't save the world, alone but,\nYou can do the good you know!!!");
 }
 
@@ -176,4 +176,13 @@ void PrintOdd(int n) {
 			printf(","); 
 		}
 	}
+}
+
+// Create Empty Int Array
+int[] CEIA() {
+	printf("size: ");
+	int s=readInt();
+	int[]a;
+	a=new int[s];
+	return a;
 }
