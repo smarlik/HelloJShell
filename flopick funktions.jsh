@@ -186,3 +186,15 @@ int[] CEIA() {
 	a=new int[s];
 	return a;
 }
+// Create Int Array
+int[] CIA() {
+	int[] a=CEIA();
+	printf("values:\n");
+	int s=a.length;
+	for(int c=0;c<s;c=c+1) {
+		a[c]=readInt();
+		}
+	return  a;
+}
+		
+	
