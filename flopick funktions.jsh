@@ -182,7 +182,7 @@ void PrintOdd(int n) {
 int[] CEIA() {
 	printf("size: ");
 	int s=readInt();
-	int[]a;
+	int[] a;
 	a=new int[s];
 	return a;
 }
@@ -196,5 +196,14 @@ int[] CIA() {
 		}
 	return  a;
 }
-		
-	
+
+void printArray(int[] a) {
+	for(int c=0;c<a.length;c=c+1) {
+		printf(a[c]);
+		if(c<a.length-1) {
+			printf(",");
+		}
+	}
+}
+
+
