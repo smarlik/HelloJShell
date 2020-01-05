@@ -206,4 +206,12 @@ void printArray(int[] a) {
 	}
 }
 
+void printSum( int[] a) {
+	int sum=0;
+	for(int c=0;c<a.length;c=c+1) {
+		sum=a[c]+sum;
+	}
+	printf(sum);
+}
+
 
