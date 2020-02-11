@@ -214,4 +214,11 @@ void printSum( int[] a) {
 	printf(sum);
 }
 
-
+int find(int n,int[] a) {
+	for(int c=0;c<a.length;c=c+1) {
+		if(n==a[c]) {
+			return c;
+		}
+	}
+	return -1;
+}
