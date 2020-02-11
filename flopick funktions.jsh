@@ -42,6 +42,10 @@ int readInt() {
     }
 }
 
+int rand(int m) {
+    return (int)(Math.random() * m);
+}
+
 /**
  * HelloJShell
  */
