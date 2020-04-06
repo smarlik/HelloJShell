@@ -226,3 +226,31 @@ int find(int n,int[] a) {
 	}
 	return -1;
 }
+
+String WhichColor() {
+	String[] a=new String[]{"red","pink","purple"};
+	int i= rand(3);
+	return a[i];
+}
+
+void Beetween1and2() {
+	printf("1\n");
+	for(int c=1;c<10;c=c+1) {
+		printf("1." + c + "\n");		
+	}
+	printf("2");
+}
+
+void Beetween1and2() {
+	printf("1\n");
+	for(int c1=0;c1<10;c1=c1+1) {
+		for(int c2=0;c2<10;c2=c2+1){
+			for(int c3=0;c3<10;c3=c3+1) {
+				printf("1."+c1);
+				printf(c2);
+				printf(c3);
+				printf("\n");
+			}
+		}
+	}
+}
