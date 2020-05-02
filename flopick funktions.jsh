@@ -254,3 +254,14 @@ void Beetween1and2() {
 		}
 	}
 }
+
+int findMin(int[] a) {
+	int m=Integer.MAX_VALUE;
+	for(int c=0;c<a.length;c=c+1) {
+		if(a[c]<m) {
+			m=a[c];
+		}
+	}
+	return m;
+}
+	
