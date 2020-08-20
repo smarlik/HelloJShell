@@ -264,4 +264,18 @@ int findMin(int[] a) {
 	}
 	return m;
 }
+
+int Fibanacci(int n) {
+	int p1=0;
+	int p2=1;
+	int r=1;
+	for(int c=1;c<n;c=c+1) {
+		r=p1+p2;
+		p1=p2;
+		p2=r;
+	}
+	
+	return r;
+}
+
 	
