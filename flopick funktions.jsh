@@ -278,4 +278,13 @@ int Fibanacci(int n) {
 	return r;
 }
 
+void empty(String s) {
+	if(s=="") {
+		printf("empty");
+	} else {
+		printf("unempty");
+	}
+}
+	
+
 	
