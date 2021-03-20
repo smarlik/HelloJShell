@@ -272,7 +272,7 @@ int Fibanacci(int n) {
 	for(int c=1;c<n;c=c+1) {
 		r=p1+p2;
 		p1=p2;
-		p2=r;
+		p2=r;															
 	}
 	
 	return r;
@@ -285,6 +285,26 @@ void empty(String s) {
 		printf("unempty");
 	}
 }
-	
+// This function comresses an array for you!
+// It uses look&say algorithm ;3 
+void compress(int [] a) { 
+	int c=0;
+	int n=a[0];
+	for(int i=0;i<a.length; i=i+1) {
+		if(n==a[i]) {
+			c=c+1;
+		} else {
+			printf(n);
+			printf(c);
+			n=a[i];
+			c=1;
+		}
+		if(i==a.length-1) {
+			printf(n);
+			printf(c);
+        }
+	}
+}
 
+		
 	
