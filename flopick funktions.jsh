@@ -306,5 +306,11 @@ void compress(int [] a) {
 	}
 }
 
-		
-	
+int findSum(int [] a) {
+ 
+	int n=0;
+	for( int i=0; i<a.length; i=i+1) {
+		n=n+a[i];
+	}
+		return n;
+}
