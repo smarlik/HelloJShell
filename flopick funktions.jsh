@@ -314,3 +314,27 @@ int findSum(int [] a) {
 	}
 		return n;
 }
+
+
+void Holiday(String s) {
+	if("winter"==s) {
+		printf("Christmas,Hanukka, Winter Solstice, New years Day,\nMartin Luther KIng Jr. Day, Valentines Day,\nChinese new Year, Washington's Birthday, Lincolns Birthday");
+	} 
+	if("spring"==s) {
+		printf("St.Patricks Day,Easter, Good Friday,Mother's Day, Memorial Day");
+	}
+	if("summer"==s) {
+		printf("Father's Day,Independance Day,Grandparent's Day");
+	}
+	if("fall"==s || "automn"==s) {
+		printf("Thanksgiving,Halloween,Veterance Day");
+	}
+	
+}
+		
+		
+		
+		
+		
+		
+		
