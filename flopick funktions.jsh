@@ -331,6 +331,14 @@ void Holiday(String s) {
 	}
 	
 }
+
+boolean izPozitive(int n) {
+	if(n<0) { 
+		return false;
+	} else {
+		return true;
+	}
+}
 		
 		
 		
