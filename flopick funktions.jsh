@@ -339,10 +339,18 @@ boolean izPozitive(int n) {
 		return true;
 	}
 }
-		
-		
-		
-		
-		
-		
-		
+
+void fizzbuzz() {
+	for(int c=1; c<=100; c=c+1) {
+		if(c%3==0) {
+			printf("Fizz");
+		}
+		if(c%5==0) {
+			printf("Buzz");
+		}
+		if(c%3!=0&&c%5!=0) {
+			printf (c);
+		}
+		printf("\n");
+	}
+}
