@@ -354,3 +354,7 @@ void fizzbuzz() {
 		printf("\n");
 	}
 }
+
+int findLast(int [] a) { 
+	return a[a.length-1];
+}
