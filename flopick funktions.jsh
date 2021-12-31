@@ -354,7 +354,12 @@ void fizzbuzz() {
 		printf("\n");
 	}
 }
-
+// This funktion returns the last number of your array
 int findLast(int [] a) { 
 	return a[a.length-1];
+}
+int swap( int a[] ) {
+	int a= int[] a;
+	return a;
+}
 }
