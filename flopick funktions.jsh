@@ -358,8 +358,10 @@ void fizzbuzz() {
 int findLast(int [] a) { 
 	return a[a.length-1];
 }
-int swap( int a[] ) {
-	int a= int[] a;
+
+int[] swap(int [] a, int i,int j) {
+	int t=a[i];
+	a[i]=a[j];
+	a[j]=t;
 	return a;
-}
 }
