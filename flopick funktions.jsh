@@ -365,3 +365,15 @@ int[] swap(int [] a, int i,int j) {
 	a[j]=t;
 	return a;
 }
+//greatest common factor; this function find the greatest common factor for two numbers
+void gcf(int n1, int n2) {
+	int gcf=0;
+	for(int d=1; d<=n1; d=d+1) {
+		int r1= n1/d;
+		int r2= n2/d;
+		if(n1%d==0&&n2%d==0) {
+			gcf=d;
+		}
+	}
+	printf(gcf);
+}
